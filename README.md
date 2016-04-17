@@ -7,7 +7,7 @@ Anomaly detection in time-series data
 
 ## 데이터
 
-구글트랜드(https://www.google.com/trends/?hl=ko)에서 제공하는 개별 키워드의 쿼리 데이터
+[구글트랜드](https://www.google.com/trends/?hl=ko) 에서 제공하는 개별 키워드의 쿼리 데이터
 
 ## 방법 
 
