@@ -16,5 +16,11 @@ Anomaly detection in time-series data
 2) 아이디어의 구현은 R을 활용
 
 예시:
+아래 그림은 '목도리' 키워드의 구글 주차별 쿼리 추이
+![alt tag](https://dl.dropboxusercontent.com/u/1049842/%EB%B8%94%EB%A1%9C%EA%B7%B8/anomalydetection/scarf_full.png)
 
+아래 그림은 '목도리' 키워드에서 이상치를 측정한 쿼리 추이, 푸른색 포인트는 이상치를 의미. 붉은색 포인트는 비이상치
+![alt tag](https://dl.dropboxusercontent.com/u/1049842/%EB%B8%94%EB%A1%9C%EA%B7%B8/anomalydetection/scarf_detection.png)
 
+아래 그림은 위의 그림에서 특정 기간(2014-6-15~2016-04-10)으로 확대하여 이상치 부분을 살펴본 그림
+![alt tag](https://dl.dropboxusercontent.com/u/1049842/%EB%B8%94%EB%A1%9C%EA%B7%B8/anomalydetection/scarf_zoom.png)
