@@ -37,7 +37,7 @@ w<- 0.05
 mean<-rollapply(trend_data_key[,c('keyword')], 4, mean)
 sd<-rollapply(trend_data_key[,c('keyword')], 4, sd)
 
-trend_data_EM<-subset(trend_data, seq>=4)
+trend_data_EM<-subset(trend_data_key, seq>=4)
 
 trend_data_EM$EMA<-NA
 trend_data_EM$EMS<-NA
