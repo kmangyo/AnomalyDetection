@@ -23,6 +23,7 @@ trend_data$week<-stri_sub(trend_data$주,1,10)
 trend_data$week<-as.Date(trend_data$week)
 
 # 이 중 목도리 키워드를 사용해서 이상치 측정을 구현, 해당 키워드를 수집한 데이터에 따라 변경하여 사용할 수 있음.
+# 아래 '목도리'키워드 대신에 선풍기, 도시락, 냉장고 등의 키워드를 사용하면 해당 키워드의 이상치를 확인 가능.
 keyword<-c('목도리')
 trend_data_key<-trend_data[c('week',keyword,'seq')]
 names(trend_data_key)[2]<-c('keyword')
