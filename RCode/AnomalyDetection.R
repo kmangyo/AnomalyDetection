@@ -77,8 +77,8 @@ trend_data_EM$alarm <- abs(trend_data_EM[,c('keyword')]-trend_data_EM$EMA) > n *
 
 # 전체 기간동안의 시계열 데이터와 이상치로 측정된 시점을 표기하는 plot
 ggplot(subset(trend_data_EM), aes(x = week, y= keyword)) + 
-  geom_point(aes(colour=factor(alarm), size=10)) + geom_line(aes(y = keyword), colour="black")
+  geom_point(aes(colour=factor(alarm), size=10)) + geom_line(aes(y = keyword), colour="black") + ylab(keyword)
 
 # 특정 기간동안의 시계열 데이터와 이상치로 측정된 시점을 표기하는 plot
  ggplot(subset(trend_data_EM,seq<=641 & seq>=541), aes(x = week, y= keyword)) + 
-  geom_point(aes(colour=factor(alarm), size=10)) + geom_line(aes(y = keyword), colour="black") 
+  geom_point(aes(colour=factor(alarm), size=10)) + geom_line(aes(y = keyword), colour="black") + ylab(keyword)
