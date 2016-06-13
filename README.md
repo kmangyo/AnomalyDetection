@@ -1,5 +1,5 @@
-# AnomalyDetection
-Anomaly detection in time-series data
+# Anomaly Detection
+Anomaly Detection in Time-series Data
 
 ## 목적
 
